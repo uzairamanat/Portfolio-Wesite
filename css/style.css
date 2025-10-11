@@ -240,7 +240,7 @@ section {
 }
 
 .home .profession h3{
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     line-height: 1;
     font-weight: 600;
 }
@@ -361,7 +361,7 @@ span {
 
 .projects .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, lfr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -372,10 +372,12 @@ span {
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
+    height: 300px;
 }
 
 .projects-box img {
     width: 100%;
+    object-fit: cover;
     transition: .5s ease;
 }
 
